@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loja de Roupas</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1, p, a {
+            text-align: center;
+        }
+
+        form {
+            text-align: left;
+            margin: 0 auto;
+            width: 300px; /* Ajuste a largura conforme necessário */
+        }
+
+        .button-container {
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Bem-vindo à nossa loja de roupas!</h1>
+    <p>Aqui você encontra uma ampla seleção de roupas da moda.</p>
+    <a href="cadastro.html">Criar uma conta ou fazer login</a>
+     <h1>Cadastre-se ou faça login</h1>
+       <!-- Botão de Login -->
+    <button onclick="location.href='produtos.html'">Login</button>
+    <form action="processar_cadastro.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+     
+    <!-- Adicione mais produtos aqui -->
+</body>
+
+</html>
